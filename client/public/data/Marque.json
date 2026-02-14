@@ -1,0 +1,51 @@
+{
+  "marques": [
+    {
+      "id": 1,
+      "name": "Nike",
+      "slug": "nike",
+      "logo": "https://static.vecteezy.com/system/resources/previews/020/190/687/non_2x/nike-logo-nike-icon-free-free-vector.jpg",
+      "categories": [1, 2, 3]
+    },
+    {
+      "id": 2,
+      "name": "Adidas",
+      "slug": "adidas",
+      "logo": "https://play-lh.googleusercontent.com/1OymTFQwFRVdDB_zkHAeIu_AilPX40_rwqQI4yBLPqbDK7MMwtIZ7JS0fRqy30hgViE=w240-h480-rw",
+      "categories": [1, 2]
+    },
+    {
+      "id": 3,
+      "name": "Puma",
+      "slug": "puma",
+      "logo": "https://assets.turbologo.com/blog/fr/2019/11/19134135/puma-logo-cover.png",
+      "categories": [2, 3]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "T-shirt",
+      "slug": "tshirt",
+      "icon": "tshirt"
+    },
+    {
+      "id": 2,
+      "name": "Jean",
+      "slug": "jeans",
+      "icon": "jeans"
+    },
+    {
+      "id": 3,
+      "name": "Chaussures",
+      "slug": "shoe",
+      "icon": "shoe"
+    },
+    {
+      "id": 4,
+      "name": "Accessoires",
+      "slug": "accessory",
+      "icon": "handbag"
+    }
+  ]
+}

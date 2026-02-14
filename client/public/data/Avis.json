@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "nom": "Jean Dupont",
+      "ProfilPicture" : "",
+      "VintedLink" : "",
+      "note": 5,
+      "message": "Super dashboard, fluide et clair."
+    },
+    {
+      "id": 2,
+      "nom": "Sarah M",
+      "VintedLink" : "",
+      "ProfilPicture" : "",
+      "note": 4,
+      "message": "Interface propre et ergonomique."
+    }
+  ]
+  
