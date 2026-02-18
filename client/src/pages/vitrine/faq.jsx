@@ -15,23 +15,49 @@ export default function FAQ() {
     setOpenIndex(openIndex === index ? null : index)
   }
 
-  return (
-    <div id="faq" className="text-white px-6 md:px-20 lg:px-40 mt-16 mb-48">
-      <h1 className="text-3xl md:text-5xl font-bold text-center mb-12">FAQ</h1>
+  // iOS 26 glass (neutre)
+  const glass =
+    "backdrop-blur-2xl bg-white/[0.04] border border-white/[0.08]"
 
-      <div className="flex flex-col gap-4">
+  return (
+    <div
+      id="faq"
+      className="relative z-10 text-white px-6 md:px-24 lg:px-40 py-28"
+    >
+      <h1 className="text-4xl md:text-6xl font-semibold text-center mb-20 tracking-tight">
+        FAQ
+      </h1>
+
+      <div className="max-w-4xl mx-auto flex flex-col gap-6">
         {faq.map((item, index) => (
-          <div key={index} className="border-b border-gray-600">
+          <div
+            key={index}
+            className={`rounded-[2rem] p-6 md:p-8 transition-colors duration-300 ${glass}`}
+          >
             <button
               onClick={() => toggle(index)}
-              className="w-full text-left py-4 text-lg md:text-xl font-semibold flex justify-between items-center hover:text-blue-400 transition"
+              className="w-full text-left flex justify-between items-center text-lg md:text-2xl font-semibold tracking-tight"
             >
               {item.question}
-              <span className="ml-2">{openIndex === index ? "-" : "+"}</span>
+
+              <span className="ml-6 text-2xl md:text-3xl font-light text-white/60">
+                {openIndex === index ? "−" : "+"}
+              </span>
             </button>
-            {openIndex === index && (
-              <p className="text-xs text-gray-300 py-2 md:py-4">{item.answer}</p>
-            )}
+
+            <div
+              className={`overflow-hidden transition-all duration-400 ${
+                openIndex === index
+                  ? "max-h-96 opacity-100 mt-5"
+                  : "max-h-0 opacity-0"
+              }`}
+            >
+              <div className="h-px w-full bg-white/[0.08] my-5"></div>
+
+              <p className="text-sm md:text-base text-white/60 leading-relaxed">
+                {item.answer}
+              </p>
+            </div>
           </div>
         ))}
       </div>
