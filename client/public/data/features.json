@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Recherche optimisée",
+    "description": "Trouvez rapidement les meilleures offres et articles populaires sur Vinted grâce à nos filtres avancés.",
+    "image": "./data/images/features/image.png"
+  },
+  {
+    "title": "Gestion des ventes",
+    "description": "Suivez vos ventes, stocks et commandes depuis un tableau de bord clair et intuitif.",
+    "image": "./data/images/features/image.png"
+  },
+  {
+    "title": "Notifications intelligentes",
+    "description": "Recevez des alertes pour les nouveaux articles ou changements de prix afin de ne rien manquer.",
+    "image": "./data/images/features/image.png"
+  },
+  {
+    "title": "Analytics détaillés",
+    "description": "Obtenez des statistiques pour optimiser vos ventes et connaître les articles qui se vendent le mieux.",
+    "image": "./data/images/features/image.png"
+  }
+]

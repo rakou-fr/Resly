@@ -1,0 +1,37 @@
+[
+  {
+    "id": "essential",
+    "title": "Essential",
+    "price": "9,99€ / mois",
+    "features": [
+      "Accès aux fonctionnalités de base",
+      "Support standard",
+      "Mises à jour régulières"
+    ],
+    "link": "https://discord.gg/basic"
+  },
+  {
+    "id": "prestige",
+    "title": "Prestige",
+    "price": "19,99€ / mois",
+    "features": [
+      "Toutes les fonctionnalités",
+      "Support prioritaire",
+      "Accès anticipé aux nouveautés",
+      "Statistiques avancées"
+    ],
+    "link": "https://discord.gg/pro"
+  },
+  {
+    "id": "zinzin",
+    "title": "Zinzin",
+    "price": "29,99€ / mois",
+    "features": [
+      "Tout Pro inclus",
+      "Support 24h/24 7j/7",
+      "Coaching personnalisé",
+      "Accès bêta privé"
+    ],
+    "link": "https://discord.gg/premium"
+  }
+]

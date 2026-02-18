@@ -1,0 +1,45 @@
+[
+    {
+      "date": "2025-01-31T10:22:00Z",
+      "title": "Optimisation du moteur 0 délai",
+      "type": "update",
+      "author": "KL",
+      "avatar": "https://i.pinimg.com/736x/1a/84/3d/1a843d165a16f57dba323158f261d3fe.jpg",
+      "content": "Amélioration de la détection temps réel. Voir le changelog : https://docs.statsbot.dev/changelog",
+      "images": [
+        "https://www.sphericalinsights.com/images/rd/global-chatbot-market.png",
+        "https://i.redd.it/friyw3ie7c5g1.png"
+      ]
+    },
+    {
+      "date": "2025-01-29T18:05:00Z",
+      "title": "Incident réseau API Vinted",
+      "type": "incident",
+      "author": "KL",
+      "avatar": "https://i.pinimg.com/736x/1a/84/3d/1a843d165a16f57dba323158f261d3fe.jpg",
+      "content": "Hausse temporaire des délais d'exécution — auto retry activé.",
+      "images": []
+    },
+    {
+        "date": "2025-01-29T18:05:00Z",
+        "title": "Incident réseau API Vinted",
+        "type": "incident",
+        "author": "KL",
+        "avatar": "https://i.pinimg.com/736x/1a/84/3d/1a843d165a16f57dba323158f261d3fe.jpg",
+        "content": "Hausse temporaire des délais d'exécution — auto retry activé.",
+        "images": []
+      },
+      {
+        "date": "2025-01-31T10:22:00Z",
+        "title": "Optimisation du moteur 0 délai",
+        "type": "update",
+        "author": "KL",
+        "avatar": "https://i.pinimg.com/736x/1a/84/3d/1a843d165a16f57dba323158f261d3fe.jpg",
+        "content": "Amélioration de la détection temps réel. Voir le changelog : https://docs.statsbot.dev/changelog",
+        "images": [
+          "https://www.sphericalinsights.com/images/rd/global-chatbot-market.png",
+          "https://i.redd.it/friyw3ie7c5g1.png"
+        ]
+      }
+  ]
+  

@@ -1,0 +1,62 @@
+{
+    "bot_name": "Vinted Zero Delay Bot",
+    "version": "1.4.2",
+    "environment": "production",
+    "period": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-31T23:59:59Z"
+    },
+    "performance": {
+      "total_scans": 48210,
+      "matched_items": 7542,
+      "attempted_purchases": 913,
+      "successful_purchases": 876,
+      "failed_purchases": 37,
+      "success_rate": 0.959,
+      "avg_detection_delay_ms": 220,
+      "avg_purchase_execution_ms": 220,
+      "median_total_reaction_ms": 51,
+      "total_customer_filter" : 142
+    },
+    "filters": {
+      "keywords": ["nike", "ralph lauren", "adidas", "stussy"],
+      "price_min": 5,
+      "price_max": 120,
+      "size_tracking": ["M", "L", "42", "43"],
+      "target_categories": ["sneakers", "vetements", "accessoires"]
+    },
+    "anti_spam_protection": {
+      "cooldown_triggers": 4,
+      "timeouts_applied": 2,
+      "account_warnings_detected": 0
+    },
+    "network": {
+      "requests_sent": 128440,
+      "avg_request_latency_ms": 18,
+      "rate_limit_hits": 12
+    },
+    "recent_events": [
+      {
+        "timestamp": "2025-01-31T18:22:11Z",
+        "item_title": "Nike Air Force 1 White",
+        "price": 45,
+        "reaction_time_ms": 47,
+        "status": "purchased"
+      },
+      {
+        "timestamp": "2025-01-31T18:18:03Z",
+        "item_title": "Sweat vintage Champion",
+        "price": 25,
+        "reaction_time_ms": 55,
+        "status": "failed_rate_limited"
+      },
+      {
+        "timestamp": "2025-01-31T18:16:40Z",
+        "item_title": "Yeezy 350 v2",
+        "price": 120,
+        "reaction_time_ms": 49,
+        "status": "purchased"
+      }
+    ]
+  }
+  
